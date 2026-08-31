@@ -1,0 +1,26 @@
+streamlit==1.38.0
+
+# Video / image processing
+opencv-python==4.10.0.84
+moviepy==1.0.3
+
+# OCR
+easyocr==1.7.1
+
+# Audio transcription
+openai-whisper==20231117
+
+# Embeddings + vector search
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+numpy==1.26.4
+
+# LLM inference (answer generation)
+huggingface_hub==0.24.6
+
+# Environment variables
+python-dotenv==1.0.1
+
+# PyTorch (required by whisper, easyocr, sentence-transformers)
+torch==2.3.1
+torchvision==0.18.1

@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Session data generated at runtime (uploaded videos, frames,
+# transcripts, embeddings, FAISS indexes, etc.)
+sessions/*
+!sessions/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Model / cache downloads
+*.pt
+.cache/
+~/.cache/whisper/
+~/.EasyOCR/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.log
